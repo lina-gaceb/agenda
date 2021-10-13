@@ -1,0 +1,66 @@
+h1
+{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    font-family:cursive
+}
+
+
+
+thead
+{
+    color: black;
+}
+td, th
+{
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
+}
+table
+{
+    top: 2px;
+    border-radius: 15px;
+    border-collapse:collapse;
+    width: 70%;
+    margin:auto;
+}
+tr, td
+{
+    height: 80px;
+    width: 120px;
+    border-radius: 15px;
+}
+
+td
+{
+    text-align: center;
+}
+.tableau, .formulaire
+{
+    background: linear-gradient(white, pink,#EE9BD3 , white);
+    font-family: cursive;
+}
+form
+{
+    margin:auto;
+    display:flex;
+    margin-left: 37%;
+}
+
+.joursemaine
+{
+    color :purple
+}
+p
+{
+    position: fixed;
+}
+.anniv
+{
+    color: red;
+}
+form
+{
+    margin-left:43%
+}

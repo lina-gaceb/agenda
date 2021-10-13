@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formulaire</title>
+        <link href="agenda.CSS" rel="stylesheet">
+        <h1>Formulaire</h1>
+    </head>
+    <body class="formulaire">
+        <form method="post" action="traitement.php">
+            <p>
+<label>
+    Remplissez votre psoeudo
+</label for="psoeudo">
+<input type="text" name="psoeudo" id="psoeudo"/>
+<br/></br>
+<label for="pass">
+    Tapez votre mot de passe
+</label>
+<input type="passeword" name="pass" id="pass"/>
+<br/><br/>
+Quel élément souhaitez vous rajouter ?
+</br></br>
+<input type="checkbox" name="rendez-vous" id="rendez-vous">
+<label for="rendez-vous">Rendez-vous</label>
+</br></br>
+<input type="checkbox" name="événement" id="événement">
+<label for="événement">événement </label>
+</br></br>
+<input type="checkbox" name="autre" id="autre">
+<label for="autre">autre</label>
+</br></br>
+A quelle date souhaitez vous rajouter cet élément ?
+</br></br>
+<input type="date" name= "ladate" id="ladate">
+        </p>
+        </form>
+    </body>
+</html>
